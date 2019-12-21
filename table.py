@@ -16,6 +16,14 @@ showColumnStripes=True)
 
 tab.tabelStyle = style
 ws.add_table(tab)
+
+
+#  Add image
+img = Image('data/madecraft.jpg')
+img.height = img.height * .25
+img.width = img.width * .25
+
+ws.add_image(img, 'C1')
 wb.save('target/table.xlsx')
 
 

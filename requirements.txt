@@ -1,3 +1,4 @@
 pandas
 openpyxl
-xlrd
+xlrd    # for openpyxl
+Pillow  # for image

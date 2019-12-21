@@ -7,7 +7,7 @@ df_csv = pd.read_csv('data/Names.csv', header=None)
 #print(df_csv)
 
 # Add column headers
-df_csv.columns = ['First', 'Last', 'Address', 'City', 'State', 'Area Code', "Number"]
+df_csv.columns = ['First', 'Last', 'Address', 'City', 'State', 'Area Code', "Income"]
 
 print(df_csv.columns)
 

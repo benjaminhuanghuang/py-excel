@@ -1,5 +1,4 @@
-# py-excel
-
+# Python + Pandas for Excel
 
 ## Reference
 -[Using Python with Python](https://www.linkedin.com/learning/using-python-with-excel)
